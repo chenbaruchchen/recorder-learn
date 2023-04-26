@@ -1,10 +1,14 @@
 import "./styles.css";
+import { all_in_one } from "./assets/images-url";
+import Writing from "./writing-music/main";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      {/* <img src={all_in_one} /> */}
+      <Writing />
+      ss
+      <li>♪</li>
     </div>
   );
 }
