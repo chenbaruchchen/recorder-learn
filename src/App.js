@@ -1,14 +1,10 @@
 import "./styles.css";
 import { all_in_one } from "./assets/images-url";
-import Writing from "./writing-music/main";
-
+import UseMusic from "./writing-music/main";
 export default function App() {
   return (
     <div className="App">
-      {/* <img src={all_in_one} /> */}
-      <Writing />
-      ss
-      <li>♪</li>
+      <UseMusic />
     </div>
   );
 }
